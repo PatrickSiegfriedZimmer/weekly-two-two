@@ -1,0 +1,45 @@
+
+
+.overview img {
+    opacity: 0.8;
+
+}
+
+h2 {
+    text-transform: uppercase;
+    letter-spacing: 0.75px;
+    
+}
+
+
+p {
+    font-size: 14px;
+    color: dimgray;
+    font-style: Helvetica;
+    line-height: 1.6;
+    letter-spacing: 0.75px;
+    opacity:0.7;
+
+}
+
+
+
+h3 {
+    text-transform: uppercase;
+    letter-spacing: 0.75px;
+
+}
+
+ ul {
+    font-style: Helvetica;
+    line-height: 1.6;
+    letter-spacing: 0.75px;
+
+}
+
+/*
+font-style
+font-size
+colors
+opacity
+hover*/
