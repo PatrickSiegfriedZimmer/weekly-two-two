@@ -1,16 +1,23 @@
-
+.recipeImg {
+    height: 300px;
+    overflow: hidden;
+    }
 
 .overview img {
     opacity: 0.8;
+    filter: none;
+    transition: filter 0.8s ease-in-out, transform 0.8s ease;
+}
 
+.recipeImg:hover img {
+    transform: scale(1.5);
+    filter: grayscale(0.5);
 }
 
 h2 {
     text-transform: uppercase;
     letter-spacing: 0.75px;
-    
 }
-
 
 p {
     font-size: 14px;
@@ -22,19 +29,15 @@ p {
 
 }
 
-
-
 h3 {
     text-transform: uppercase;
     letter-spacing: 0.75px;
-
 }
 
  ul {
     font-style: Helvetica;
     line-height: 1.6;
     letter-spacing: 0.75px;
-
 }
 
 /*
@@ -42,4 +45,5 @@ font-style
 font-size
 colors
 opacity
-hover*/
+hover
+alert*/
