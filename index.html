@@ -11,29 +11,36 @@
 
   <header>
     <!-- NAVBAR/SEARCH -->
-    <div class="row justify-content-center bg-dark">
+    <div class="row justify-content-center bg-dark pb-3 pt-3">
       <div class="col-8">
-        <ul class="nav justify-content-around">
-          <li class="nav-item">
-            <a class="nav-link text-white" href="#home">HOME</a>
-          </li>
-          <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle text-white" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">CATEGORIES</a>
-            <div class="dropdown-menu bg-dark">
-              <a class="dropdown-item text-white" href="#">1</a>
-              <a class="dropdown-item text-white" href="#">2</a>
-              <a class="dropdown-item text-white" href="#">3</a>
-            </div>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link text-white" href="#about">ABOUT</a>
-          </li>
-        </ul> 
+        <nav class="navbar navbar-expand-sm navbar-dark bg-dark">
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarToggler" aria-controls="navbarToggler" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarToggler">
+            <ul class="navbar-nav justify-content-around w-100">
+              <li class="nav-item">
+                <a class="nav-link text-white" href="./">HOME</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle text-white" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">KATEGORIEN</a>
+                <div class="dropdown-menu bg-dark">
+                  <a class="dropdown-item text-white" href="#cards">vegan</a>
+                  <a class="dropdown-item text-white" href="#cards">vegetarisch</a>
+                  <a class="dropdown-item text-white" href="#cards">fleisch/fisch</a>
+                </div>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-white" href="#about">ÜBER UNS</a>
+              </li>
+            </ul>
+          </div>
+        </nav>
       </div> 
     </div>
     <!-- HEROSECTION -->
     <!-- CAROUSEL -->
-    <div class="row justify-content-center">
+    <div class="row justify-content-center bg-dark pb-5">
         <div id="previewSlides" class="carousel slide justify-content-center" data-bs-ride="carousel">
           <div class="carousel-indicators">
             <button type="button" data-bs-target="#previewSlides" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
@@ -44,22 +51,22 @@
             <div class="carousel-item active">
               <img src="https://images.unsplash.com/photo-1505253716362-afaea1d3d1af?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80" class="d-block mx-auto" alt="1">
               <div class="carousel-caption">
-                <h5>First slide label</h5>
-                <p>Some representative placeholder content for the first slide.</p>
+                <h5>Gericht des Tages 1</h5>
+                <p>Gemischter Salat</p>
               </div>
             </div>
             <div class="carousel-item">
               <img src="https://images.unsplash.com/photo-1581822609531-67d2bd6e1097?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=688&q=80" class="d-block mx-auto" alt="2">
               <div class="carousel-caption">
-                <h5>Second slide label</h5>
-                <p>Some representative placeholder content for the second slide.</p>
+                <h5>Gericht des Tages 2</h5>
+                <p>Selbstgemachter Burger</p>
               </div>
             </div>
             <div class="carousel-item">
               <img src="https://images.unsplash.com/photo-1623238913973-21e45cced554?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80" class="d-block mx-auto" alt="3">
               <div class="carousel-caption">
-                <h5>Third slide label</h5>
-                <p>Some representative placeholder content for the third slide.</p>
+                <h5>Gericht des Tages 3</h5>
+                <p>Ofenkartoffeln</p>
               </div>
             </div>
           </div>
@@ -78,7 +85,7 @@
 
     <!-- RECIPE °1 -->
 
-    <div class="container">
+    <div class="container" id="cards">
         <div class="row justify-content-center">
             <div class="col-xs-9 col-sm-9 col-md-5 col-lg-3 col-xl-3 card m-4 p-4 border-2 border-dark bg-success"> <img
                     src="img/t.jpg" class="card-img-top" alt="...">
@@ -160,7 +167,7 @@
 
 
     <!-- FOOTER -->
-    <footer class="text-center text-white">
+    <footer class="text-center text-white" id="about">
         <!-- Grid container -->
         <div class="container pt-4">
             <!-- Section: Social media -->
