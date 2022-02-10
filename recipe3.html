@@ -15,20 +15,84 @@
     -->
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css" rel="stylesheet">
     <link rel="stylesheet" href="stylerecipe.css">
-
+    <link rel="stylesheet" href="style.css">
     <title>Spinatlasagne</title>
 
   </head>
   <header>
     <!-- NAVBAR/SEARCH -->
-    <nav> 
+    <div class="row justify-content-center bg-dark pb-3 pt-3">
+      <div class="col-8">
+        <nav class="navbar navbar-expand-sm navbar-dark bg-dark">
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarToggler" aria-controls="navbarToggler" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarToggler">
+            <ul class="navbar-nav justify-content-around w-100">
+              <li class="nav-item">
+                <a class="nav-link text-white" href="./">HOME</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle text-white" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">KATEGORIEN</a>
+                <div class="dropdown-menu bg-dark">
+                  <a class="dropdown-item text-white" href="#cards">vegan</a>
+                  <a class="dropdown-item text-white" href="#cards">vegetarisch</a>
+                  <a class="dropdown-item text-white" href="#cards">fleisch/fisch</a>
+                </div>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-white" href="#about">ÜBER UNS</a>
+              </li>
+            </ul>
+          </div>
+        </nav>
+      </div> 
+    </div>
 
-    </nav>
+    
     <!-- HEROSECTION / change img?? / change H1?-->
     <div>
         <!-- CAROUSEL -->
-    </div>
-  </header>
+        <div class="row justify-content-center bg-dark pb-5">
+          <div id="previewSlides" class="carousel slide justify-content-center" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+              <button type="button" data-bs-target="#previewSlides" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+              <button type="button" data-bs-target="#previewSlides" data-bs-slide-to="1" aria-label="Slide 2"></button>
+              <button type="button" data-bs-target="#previewSlides" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="https://images.unsplash.com/photo-1505253716362-afaea1d3d1af?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80" class="d-block mx-auto" alt="1">
+                <div class="carousel-caption">
+                  <h5>Gericht des Tages 1</h5>
+                  <p>Gemischter Salat</p>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img src="https://images.unsplash.com/photo-1581822609531-67d2bd6e1097?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=688&q=80" class="d-block mx-auto" alt="2">
+                <div class="carousel-caption">
+                  <h5>Gericht des Tages 2</h5>
+                  <p>Selbstgemachter Burger</p>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img src="https://images.unsplash.com/photo-1623238913973-21e45cced554?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80" class="d-block mx-auto" alt="3">
+                <div class="carousel-caption">
+                  <h5>Gericht des Tages 3</h5>
+                  <p>Ofenkartoffeln</p>
+                </div>
+              </div>
+            </div>
+            <button class="carousel-control-prev justify-content-end" type="button" data-bs-target="#previewSlides" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="false"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next justify-content-start" type="button" data-bs-target="#previewSlides" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="false"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+    </header>
 
   <body>
     <div class="rezeptOverall">
