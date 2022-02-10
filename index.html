@@ -9,10 +9,9 @@
     <link rel="stylesheet" href="style.css">
     <title>Cookbook</title>
 </head>
-
-<header>
+  <body>
     <!-- NAVBAR/SEARCH -->
-    <div class="row justify-content-center bg-dark pb-3 pt-3">
+    <div class="row justify-content-center bg-dark pb-3 pt-3 sticky-top">
       <div class="col-8">
         <nav class="navbar navbar-expand-sm navbar-dark bg-dark">
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarToggler" aria-controls="navbarToggler" aria-expanded="false" aria-label="Toggle navigation">
@@ -21,13 +20,13 @@
           <div class="collapse navbar-collapse" id="navbarToggler">
             <ul class="navbar-nav justify-content-around w-100">
               <li class="nav-item">
-                <a class="nav-link text-white" href="./">HOME</a>
+                <a class="nav-link text-white" href="index.html">HOME</a>
               </li>
               <li class="nav-item dropdown">
                 <a class="nav-link dropdown-toggle text-white" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">KATEGORIEN</a>
                 <div class="dropdown-menu bg-dark">
                   <a class="dropdown-item text-white" href="#cards">vegan</a>
-                  <a class="dropdown-item text-white" href="#cards">vegetarisch</a>
+                  <a class="dropdown-item text-white" href="index.html">vegetarisch</a>
                   <a class="dropdown-item text-white" href="#cards">fleisch/fisch</a>
                 </div>
               </li>
@@ -42,7 +41,7 @@
     <!-- HEROSECTION -->
     <!-- CAROUSEL -->
     <div class="row justify-content-center bg-dark pb-5">
-        <div id="previewSlides" class="carousel slide justify-content-center" data-bs-ride="carousel">
+      <div id="previewSlides" class="carousel slide justify-content-center" data-bs-ride="carousel">
           <div class="carousel-indicators">
             <button type="button" data-bs-target="#previewSlides" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
             <button type="button" data-bs-target="#previewSlides" data-bs-slide-to="1" aria-label="Slide 2"></button>
@@ -79,9 +78,8 @@
             <span class="carousel-control-next-icon" aria-hidden="false"></span>
             <span class="visually-hidden">Next</span>
           </button>
-      </div>
-  </header>
-  <body>
+        </div>
+    </div>    
     <!-- OUR RECIPES -->
     <br>
     <br id="cards">
@@ -114,7 +112,7 @@
                     <li class="list-group-item"><strong>...</strong></li>
                 </ul>
                 <div class="card-body">
-                    <a href="" class="card-link link-light">Zum Rezept</a>
+                    <a href="recipe.html" class="card-link link-light">Zum Rezept</a>
                 </div>
             </div>
 
@@ -140,7 +138,7 @@
                     <li class="list-group-item"><strong>...</strong></li>
                 </ul>
                 <div class="card-body">
-                    <a href="" class="card-link link-light">Zum Rezept</a>
+                    <a href="recipe2.html" class="card-link link-light">Zum Rezept</a>
                 </div>
             </div>
 
@@ -167,7 +165,7 @@
                     <li class="list-group-item"><strong>...</strong></li>
                 </ul>
                 <div class="card-body">
-                    <a href="" class="card-link link-light ">Zum Rezept</a>
+                    <a href="recipe3.html   " class="card-link link-light ">Zum Rezept</a>
                 </div>
             </div>
         </div>
