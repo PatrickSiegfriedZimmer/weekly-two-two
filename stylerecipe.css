@@ -1,7 +1,12 @@
+
+img {
+    object-fit: scale-down;
+}
+
 .recipeImg {
     height: 300px;
     overflow: hidden;
-    object-fit: cover;
+    
     
     }
 
