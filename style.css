@@ -18,3 +18,9 @@ header {
 .dropdown-menu > .dropdown-item:hover{
     background-color: black;
 }
+
+ul {
+    font-style: Helvetica;
+    line-height: 1.6;
+    letter-spacing: 0.75px;
+}
